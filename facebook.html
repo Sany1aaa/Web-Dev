@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .page-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .brand-info {
+            flex: 1;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .brand-info h1 {
+            color: #1877f2;
+            margin-bottom: 20px;
+        }
+
+        .brand-info p {
+            color: #606770;
+            margin-bottom: 20px;
+        }
+
+        .login-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .login-container h1 {
+            color: #1877f2;
+            margin-bottom: 20px;
+        }
+
+        .login-container p {
+            color: #606770;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            outline: none;
+        }
+
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1877f2;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .form-group button:hover {
+            background-color: #166fe5;
+        }
+
+        .create-page-text {
+            color: #606770;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-content">
+        <div class="brand-info">
+            <h1>Facebook</h1>
+            <p>Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми</p>
+        </div>
+        <div class="login-container">
+            <h1>Login</h1>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="email">Email or Phone</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Log In</button>
+                </div>
+            </form>
+            <p class="create-page-text">Cоздать страницу знаменитости, музыкальной группы или компании</p>
+        </div>
+    </div>
+</body>
+</html>
