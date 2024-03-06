@@ -1,0 +1,21 @@
+.product-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styles for the "Add to Cart" button */
+.product-actions button {
+    background-color: #4caf50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding around text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.product-actions button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+  
