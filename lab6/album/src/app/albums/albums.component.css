@@ -1,0 +1,56 @@
+/* Общие стили для списка и его элементов */
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* transition: transform 0.2s ease-in-out; */
+  }
+  
+  /* li:hover {
+    transform: scale(1.05);
+  } */
+  
+  /* Стили для ссылок внутри элементов списка */
+  li a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Стили для кнопок удаления */
+  li button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  li button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Дополнительные стили для загрузочного сообщения */
+  p {
+    font-style: italic;
+    color: #777;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  

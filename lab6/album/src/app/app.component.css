@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #3498db; /* Цвет фона меню */
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #2980b9; /* Цвет фона при наведении */
+  }
+  
+  /* Опционально: стили для активного пункта меню */
+  li.active {
+    background-color: #2980b9; /* Цвет фона активного пункта */
+  }
+  
+  li.active a {
+    color: white; /* Цвет текста активного пункта */
+  }
+  
