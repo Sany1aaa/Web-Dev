@@ -1,0 +1,53 @@
+/* Стили для кнопки "Return Back" */
+button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[routerLink]:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Стили для контейнера с фотографиями */
+  div {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Стили для заголовков и изображений */
+  h5 {
+    color: #3498db;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Стили для текста загрузки */
+  p {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
