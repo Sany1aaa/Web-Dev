@@ -1,0 +1,12 @@
+img{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 8px; /*Add a border-radius for rounded corners */
+    margin-bottom: 10px; /*Space between image and text*/
+}
+
+button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

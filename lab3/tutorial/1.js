@@ -1,7 +1,7 @@
-let admin, name; // can declare two variables at once
+let admin, name; 
 
 name = "John";
 
 admin = name;
 
-alert( admin ); // "John"
+alert( admin ); 
