@@ -1,0 +1,71 @@
+/* Styling for company list */
+.company-list {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styling for company list item */
+.company-list li {
+  margin-bottom: 20px; /* Add margin between each company item */
+}
+
+/* Styling for company information */
+.company-info {
+  border: 2px solid #8B4513; /* Add border around company information */
+  padding: 15px; /* Add padding inside company information */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  position: relative; /* Make the container position-relative */
+  background-color: #FFF8DC; /* Set background color for company info */
+}
+
+/* Styling for company name */
+.company-info h3 {
+  margin: 0; /* Remove margin */
+  font-size: 24px; /* Set font size */
+  color: #8B4513; /* Set font color */
+  text-transform: uppercase; /* Transform text to uppercase */
+}
+
+/* Styling for action buttons */
+.action-buttons {
+  position: absolute; /* Position the buttons absolutely */
+  top: 10px; /* Adjust top position */
+  right: 10px; /* Adjust right position */
+}
+
+/* Styling for edit and delete buttons */
+.delete-button, .edit-button, .create-button {
+  margin-left: 10px; /* Add margin between buttons */
+  padding: 8px 16px; /* Add padding */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+  font-size: 16px; /* Set font size */
+  text-transform: uppercase; /* Transform text to uppercase */
+}
+
+.delete-button {
+  background-color: #8B0000; /* Button background color */
+}
+
+.edit-button {
+  background-color: #8B4513; /* Button background color */
+}
+
+.create-button {
+  background-color: #DAA520; /* Button background color */
+}
+
+/* Button hover effects */
+.edit-button:hover {
+  background-color: #A0522D; /* Button background color on hover */
+}
+
+.delete-button:hover {
+  background-color: #CD5C5C; /* Button background color on hover */
+}
+
+.create-button:hover {
+  background-color: #FFD700; /* Button background color on hover */
+}
